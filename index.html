@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link rel="stylesheet" href="Stylesheet.css">
+    
+</head>
+<body>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <main>
+         <form action=""> 
+             <input type="text" id="valueSearch">
+             <button><i class="fa-sharp fa-solid fa-magnifying-glass"></i></button>
+         </form>
+         <section class="result">
+            <figure class="name" id="city">
+                <figcaption>London</figcaption>
+                <img src="https://flagsapi.com/GB/flat/32.png">
+            </figure>
+            <figure class="temp" id="temp">
+                <img src="https://openweathermap.org/img/wn/10d@4x.png" alt="">
+                <figcaption>
+                    <span>31</span>
+                    <sup>o</sup>
+                </figcaption>
+            </figure>
+            <p class="description">
+                Overcast clouds
+            </p>
+            <ul>
+                <li>
+                    <span>clouds</span>
+                    <i class="fa-solid fa-cloud"></i>
+                    <span id="clouds">98</span>%
+                </li>
+                <li>
+                    <span>Humidity</span>
+                    <i class="fa-solid fa-droplet"></i>
+                    <span id="Humidity">55</span>%
+                </li>
+                <li>
+                    <span>
+                        Pressure
+                    </span>
+                    <i class="fa-solid fa-gauge"></i>
+                    <span id="Pressure">1001</span>hPa
+                </li>
+            </ul>
+         </section>
+
+    </main>
+    <script src="javascru.js"></script>
+</body>
+</html>
